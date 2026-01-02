@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&family=Roboto+Condensed:wght@700&display=swap');
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:content-box;
+  font-family:"Poppins", sans-serif;
+}
+
+body{
+  background: url('/static/images/background3.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+header{
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  height: 70px;
+  justify-content: space-between;
+  align-items:center;
+  padding: 5px;
+  background-color: rgb(255, 255, 255);
+}
+
+.title{
+  color: rgb(211, 7, 7);
+  
+  border: 3px solid  rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+h1 snap{
+  color: rgb(0, 0, 0);
+}
+
+header a{
+  padding: 3px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+header img{
+  display: flex;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  
+}
+
+header img:hover{
+  cursor: pointer;
+  transform: scale(1.5);
+  text-decoration: none;
+}  
+
+canvas{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  border: 5px solid black;
+  border-radius: 30px;
+  width: 1280p;
+  height: 768px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.draw{
+  display: flex;
+}
+
+.palette{
+  display: flex;
+  width: 400px;
+  height: 400px;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  border: 5px solid black;
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-left: 50px;
+  padding: 50px;
+}
+.clr{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+  gap: 1rem;
+}
+.colors{
+  width: 50px;
+  height: 30px;
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 20px;
+  padding: 5px;
+  margin: 5px;
+}
+#red{
+  background-color: red;
+}
+#blue{
+  background-color: blue;
+}
+#green{
+  background-color: green;
+}
+#black{
+  background-color: black;
+}
+#white{
+  background-color: white;
+}
+#brown{
+  background-color: brown;
+}
+#yellow{
+  background-color: yellow;
+}
+#orange{
+  background-color: orange;
+}
+#palegoldenrod{
+  background-color: #fbffb9;
+}
+.colors:hover{
+  cursor: pointer;
+}
+.inputs{
+  display: flex;
+  margin-top: 50px;
+  gap: 3rem;
+}
+
+.inputs #size{
+  width: 100px;
+  height: 20px;
+  text-align: center;
+  margin-top: 40px;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+.inputs #color{
+
+  height: 100px;
+  width: 150px;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+
+.inputs #color:hover{
+  cursor: pointer;
+}
+
+.buttons{
+ display: flex;
+ margin-top: -200px;
+ margin-left: 1500px;
+ gap: 1rem;
+}
+
+.btn{
+  width: 110px;
+  height: 50px;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+.btn:hover{
+  cursor: pointer;
+  background-color: rgb(41, 40, 40);
+  color: white;
+}

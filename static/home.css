@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&family=Roboto+Condensed:wght@700&display=swap');
+
+
+*{
+  margin:0;
+  padding: 0;
+  font-family:"Poppins", sans-serif;
+}
+
+body{
+
+  background-image: url('/static/images/background1.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+
+}
+
+header{
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  height: 70px;
+  justify-content: space-between;
+  align-items:center;
+  padding: 5px;
+  background-color: rgb(255, 255, 255);
+}
+
+.title{
+  color: rgb(211, 7, 7);
+  
+  border: 3px solid  rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+h1 snap{
+  color: rgb(0, 0, 0);
+}
+
+header a{
+  padding: 3px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+header img{
+  display: flex;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  
+}
+
+header img:hover{
+  cursor: pointer;
+  transform: scale(1.5);
+  text-decoration: none;
+} 
+
+.n1{
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  justify-content: left;
+  color: rgb(0, 0, 0);
+}
+.n1 h1{
+  text-align: left;
+  flex-wrap: wrap;
+  margin-top: 150px;
+  margin-left: 100px;
+  color: black;
+  font-size: 50px;
+}
+
+.n1 p{
+  text-align: left;
+  margin-top: 100px;
+  margin-left: 100px;
+  color: black;
+  font-size: 20px;
+}
+.cards{
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  justify-content: left;
+  color: rgb(0, 0, 0);
+   
+}
+
+.cards h2{
+  display: flex;
+  text-align: left;
+  align-items: left;
+  flex-wrap: wrap;
+  margin-top: 150px;
+  margin-left: 100px;
+  color: black;
+  font-size: 35px;
+  max-width: 700px;
+}
+
+.cards p{
+  text-align: left;
+  margin-top: 100px;
+  margin-left: 100px;
+  color: black;
+  font-size: 20px;
+}
+
+.examples{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+
+.examples img{
+  width: 150px;
+  height: auto;
+  border: 3px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.examples img:hover{
+  cursor: pointer;
+  transform: scale(1.5);
+  text-decoration: none;
+}
+
+.about{
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  justify-content: left;
+  color: rgb(0, 0, 0);
+}
+
+.about h1{
+  text-align: left;
+  margin-top: 300px;
+  margin-bottom: 100px;
+  margin-left: 300px;
+  color: black;
+  font-size: 50px;
+} 
+
+.slinks{
+  display: flex;
+  gap: 7rem;
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+
+.slinks a{
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.facebook{
+  background-color: cornflowerblue;
+}
+
+.instagram{
+  background: linear-gradient(rgb(211, 175, 108), rgb(206, 12, 164));
+}
+
+.github{
+  background-color: rgb(0, 0, 0);
+}
+
+.slinks a:hover{
+  transform: scale(1.1);
+}
+
+
+
+
+.about h2{
+  font-size: 30px;
+  margin-top: 30px;
+  margin-left: 50px;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  text-decoration: underline;
+} 
+.about p{
+  display:flex;
+  
+  padding: 30px;
+  font-size: 20px;
+  max-width: 700px;
+  color: rgb(0, 0, 0);
+}
+.about ul{
+  margin-left: 70px;
+  padding: 30px;
+  font-size: 20px;
+  max-width: 700px;
+  color: rgb(0, 0, 0);
+}
+footer {
+  display: flex;
+  font-size: small;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  padding: 20px;
+  border-top: 2px solid black;
+  background-color: rgb(43, 42, 42);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  gap: 10px;
+}
+
+.slinks2{
+  display: flex;
+  gap: 7rem;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.slinks2 a{
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 5px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.slinks2 a:hover{
+  transform: scale(1.1);
+}
+
+.facebook1{
+  background-color: rgb(43, 42, 42);
+}
+
+.facebook1:hover{
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.instagram1{
+  background: rgb(43, 42, 42);
+}
+
+.instagram1:hover{
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.github1{
+  background-color: rgb(43, 42, 42);
+}
+
+.github1:hover{
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.slinks a:hover{
+  transform: scale(1.1);
+}
+
+.contacts p{
+  color: rgb(255, 255, 255);
+}
+

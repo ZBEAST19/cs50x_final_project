@@ -1,0 +1,20 @@
+
+<link rel="stylesheet" href="static/login.css">
+
+
+
+{% block content %}
+  <h2>Login</h2>
+  <form method="post" action="{{ url_for('login') }}">
+    <label for="username">Username</label><br>
+    <input id="username" name="username" placeholder= "Username" required><br><br>
+
+    <label for="password">Password</label><br>
+    <input id="password" name="password" type="password" placeholder= "Password" required><br><br>
+
+    <button type="submit">Submit</button>
+    <p>if you are new <a href="{{ url_for('register') }}">"Register"</a></p>
+  </form>
+
+ 
+{% endblock %}

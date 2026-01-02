@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="static/canvas.css">
+    <title>50xSketchWeb</title>
+</head>
+<body>
+<header>
+    <h1 class="title">50x<snap>SketchWeb</snap></h1>
+    <a href="{{ url_for('homepage') }}">Homepage</a>
+   </header>
+   <div class="draw">
+    <div class="cvs">
+       <canvas id="canvas"></canvas>
+    </div>
+   <div class="palette">
+    <div class="clr">
+        <div class="colors" id="red"    onclick="choose_color(this)"></div>
+        <div class="colors" id="blue"   onclick="choose_color(this)"></div>
+        <div class="colors" id="green"  onclick="choose_color(this)"></div>
+        <div class="colors" id="black"  onclick="choose_color(this)"></div>
+        <div class="colors" id="white"  onclick="choose_color(this)"></div>
+        <div class="colors" id="brown"  onclick="choose_color(this)"></div>
+        <div class="colors" id="yellow" onclick="choose_color(this)"></div>
+        <div class="colors" id="orange" onclick="choose_color(this)"></div>
+        <div class="colors" id="palegoldenrod" onclick="choose_color(this)"></div>
+    </div>
+     <div class="inputs">
+        <input oninput="change_color(this)" id="color" type="color" value= "black">
+        <input oninput="change_size(this)" id="size" type="number" min="1" max="100" value="5">
+     </div>
+    </div>
+   </div>
+   <div class="buttons">
+      <button class="btn" id="download">Download</button>
+      <button class="btn" id="eraser">Eraser</button>
+   </div>
+   <script src="static/canvas.js"></script>
+</body>
+</html>

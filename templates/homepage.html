@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="static/home.css">
+    <title>SketchWeb {% block title %}{% endblock %}</title>
+</head>
+<body>
+<header>
+    <h1 class="title">50x<snap>SketchWeb</snap></h1>
+     <div class="links">
+          <a href="/login">Login</a>
+          <a href="/register">Register</a>
+          <a href="/logout">Logout</a>
+          <a href="/canvas">Draw</a>
+     </div>
+</header>
+<div class="n1">
+    <h1>Welcome To <snap>50xSketchWeb</snap></h1>
+
+      <p>"your Digital Sketchbook"</p>
+</div>
+<div class="cards">
+    <h2>
+       what can you do on this website?
+    </h2>
+       <p>drawing a beautiful images and save them on your computer. </p>
+</div>
+ <div class="examples">
+      <img   onclick="download1(this)" src="static/images/image.png">
+      <img   onclick="download1(this)" src="static/images/image (2).png">
+      <img   onclick="download1(this)" src="static/images/image (5).png">
+ </div>
+<section class="about">
+  <h1>About</h1>
+      
+    <h2>About Me</h2>
+    <p>
+        Hi everyone, my name's Zouhair Im an artist and  a beginner web developer,
+        I study in the cs50 course, and this website is my cs50x final project and also
+        It is my second website that i made, i hope you like it.
+    </p>
+    <div class="slinks">
+      <a href='https://www.facebook.com/zouhair.zh.148' class="facebook">Facebook</a>
+      <a href='https://www.instagram.com/zouhairzh20/' class="instagram">Instagram</a>
+      <a href='https://github.com/ZBEAST19' class="github">Github</a>
+    </div>
+
+    <br>
+    <h2>About The Website</h2>
+    <p>
+      This "50xGallery" website is my cs50x final project, and it is all my individual work
+      50xGallery is a simple and friendly drawing website that allows you to create digital art directly in your browser.
+      
+      The main idea behind this project is to make drawing easy and accessible for everyone.
+      
+      <p>On this website, you can:</p>
+        <ul>
+          <li>You can Register, Login and Logout</li> 
+          <li>Draw freely using the Pen tool </li>  
+          <li>Use the Eraser to fix your mistakes</li>   
+          <li>Choose from multiple colors</li> 
+          <li>Choose from a color picker</li>
+          <li>Change the pen size </li>  
+          <li>Save your artwork directly to your computer </li>  
+        </ul>
+      <p>The goal of this project is to offer a clean, simple, and enjoyable drawing experience for all users.</p>
+    </p> 
+      <h2>Future Plans</h2>
+       <p>In the future, I would like to add:</p>
+        <ul>
+          <li>More drawing tools</li>  
+          <li>Undo/Redo buttons </li>   
+          <li>Make it responsive with phones</li>
+        </ul>
+</section>
+<footer>
+    <div  class="contacts">
+      <h2>
+        contact me :
+      </h2>
+        <p>phone : +212 0714355285</p>
+        <p>gmail : zouhair1999bruce@gmail.com</p>
+        <br>
+        <p> My Social Media :</p>
+    <div class="slinks2">
+      <a href='https://www.facebook.com/zouhair.zh.148' class="facebook1">Facebook</a>
+      <a href='https://www.instagram.com/zouhairzh20/' class="instagram1">Instagram</a>
+      <a href='https://github.com/ZBEAST19' class="github1">Github</a>
+    </div>
+    </div>
+</footer>
+     <script src="static/canvas.js"></script>
+</body>
+</html>
