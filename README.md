@@ -2,7 +2,7 @@
 
 ## Video Demo
 
-[https://youtu.be/kEUSAWIPWdw](https://youtu.be/kEUSAWIPWdw)
+https://youtu.be/kEUSAWlPWdw
 
 ---
 
@@ -126,3 +126,4 @@ All code logic, design decisions, and final implementation were done by me.
 ## Academic Honesty
 
 This project complies with CS50’s Academic Honesty policy.
+
